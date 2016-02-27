@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "test.test"
+        minSdkVersion 15
+        targetSdkVersion 19
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    provided files('libs/commons-codec-1.9.jar')
+    provided files('libs/commons-logging-1.2.jar')
+    provided files('libs/fluent-hc-4.5.1.jar')
+    provided files('libs/jna-4.1.0.jar')
+    provided files('libs/jna-platform-4.1.0.jar')
+}

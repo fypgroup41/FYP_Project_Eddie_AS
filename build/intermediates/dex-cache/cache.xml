@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\test\Desktop\Android Debug1\app\libs\commons-codec-1.9.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9ce04e34240f674bc72680f8b843b1457383161a">
+        <dex dex="C:\Users\test\Desktop\Android Debug1\app\build\intermediates\pre-dexed\debug\commons-codec-1.9_36abb729a44c138e801bcf1b4e8142b39fe827e4.jar" />
+    </item>
+    <item
+        jar="C:\Users\test\Desktop\Android Debug1\app\libs\fluent-hc-4.5.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2a4bafd995d1403c26d874bf52f76e7f74af8b9a">
+        <dex dex="C:\Users\test\Desktop\Android Debug1\app\build\intermediates\pre-dexed\debug\fluent-hc-4.5.1_45f82fb26134f07e4f083d21c0490d5b087a2a78.jar" />
+    </item>
+    <item
+        jar="C:\Users\test\Desktop\Android Debug1\app\libs\jna-platform-4.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="23457ad1cf75c2c16763330de5565a0e67b4bc0a">
+        <dex dex="C:\Users\test\Desktop\Android Debug1\app\build\intermediates\pre-dexed\debug\jna-platform-4.1.0_ebd317debe5ed28ca089daf47676c94a9a366507.jar" />
+    </item>
+    <item
+        jar="C:\Users\test\Desktop\Android Debug1\app\libs\jna-4.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1c12d070e602efd8021891cdd7fd18bc129372d4">
+        <dex dex="C:\Users\test\Desktop\Android Debug1\app\build\intermediates\pre-dexed\debug\jna-4.1.0_232394d18836c0cc3725b0897a956541c8db5ec7.jar" />
+    </item>
+    <item
+        jar="C:\Users\test\Desktop\Android Debug1\app\libs\commons-logging-1.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4bfc12adfe4842bf07b657f0369c4cb522955686">
+        <dex dex="C:\Users\test\Desktop\Android Debug1\app\build\intermediates\pre-dexed\debug\commons-logging-1.2_35d6377d1e5bce9d480d1ccec128073c339b38cb.jar" />
+    </item>
+
+</items>
