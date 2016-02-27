@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="test.test"
+    package="fyp.project"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -17,24 +17,24 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:largeHeap="true" >
-        <activity android:name="test.test.Main" >
+        <activity android:name="fyp.project.Main" >
         </activity>
         <activity
-            android:name="test.test.Menu"
+            android:name="fyp.project.Menu"
             android:label="@string/app_name" >
         </activity>
-        <activity android:name="test.test.Login" >
+        <activity android:name="fyp.project.Login" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="test.test.Login_Status" >
+        <activity android:name="fyp.project.Login_Status" >
         </activity>
-        <activity android:name="test.test.AndroidBarcodeQrExample" >
+        <activity android:name="fyp.project.AndroidBarcodeQrExample" >
         </activity>
-        <activity android:name="test.test.Activities" >
+        <activity android:name="fyp.project.Activities" >
         </activity>
     </application>
 

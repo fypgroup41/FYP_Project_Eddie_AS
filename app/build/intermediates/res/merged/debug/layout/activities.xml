@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="fill_parent"
+              android:layout_width="fill_parent"
+              android:orientation="vertical" 
+              xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <TextView
+        android:id="@+id/tvOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:padding="3px"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:maxLines="15"
+        android:scrollbars = "vertical"
+        android:singleLine="false"
+    />
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gridViewObj"
+        android:numColumns="auto_fit"
+        android:gravity="center"
+        android:columnWidth="50pt"
+        android:stretchMode="columnWidth"/>
+  
+</LinearLayout>
+
